@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pawparadise/static/css/main.fd6459d6.css",
-    "main.js": "/pawparadise/static/js/main.edb61056.js",
-    "static/js/453.413acdf5.chunk.js": "/pawparadise/static/js/453.413acdf5.chunk.js",
-    "index.html": "/pawparadise/index.html",
-    "main.fd6459d6.css.map": "/pawparadise/static/css/main.fd6459d6.css.map",
-    "main.edb61056.js.map": "/pawparadise/static/js/main.edb61056.js.map",
-    "453.413acdf5.chunk.js.map": "/pawparadise/static/js/453.413acdf5.chunk.js.map"
+    "main.css": "/static/css/main.fd6459d6.css",
+    "main.js": "/static/js/main.21c22dd6.js",
+    "static/js/453.413acdf5.chunk.js": "/static/js/453.413acdf5.chunk.js",
+    "index.html": "/index.html",
+    "main.fd6459d6.css.map": "/static/css/main.fd6459d6.css.map",
+    "main.21c22dd6.js.map": "/static/js/main.21c22dd6.js.map",
+    "453.413acdf5.chunk.js.map": "/static/js/453.413acdf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd6459d6.css",
-    "static/js/main.edb61056.js"
+    "static/js/main.21c22dd6.js"
   ]
 }
