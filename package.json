@@ -2,7 +2,7 @@
   "name": "pawparadise",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pi3rc3.github.io/pawparadise/",
+  "homepage": "https://www.piercespawparadise.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
