@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pawparadise/static/css/main.fb5023a2.css",
-    "main.js": "/pawparadise/static/js/main.a779cf17.js",
+    "main.css": "/pawparadise/static/css/main.fd6459d6.css",
+    "main.js": "/pawparadise/static/js/main.edb61056.js",
     "static/js/453.413acdf5.chunk.js": "/pawparadise/static/js/453.413acdf5.chunk.js",
     "index.html": "/pawparadise/index.html",
-    "main.fb5023a2.css.map": "/pawparadise/static/css/main.fb5023a2.css.map",
-    "main.a779cf17.js.map": "/pawparadise/static/js/main.a779cf17.js.map",
+    "main.fd6459d6.css.map": "/pawparadise/static/css/main.fd6459d6.css.map",
+    "main.edb61056.js.map": "/pawparadise/static/js/main.edb61056.js.map",
     "453.413acdf5.chunk.js.map": "/pawparadise/static/js/453.413acdf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb5023a2.css",
-    "static/js/main.a779cf17.js"
+    "static/css/main.fd6459d6.css",
+    "static/js/main.edb61056.js"
   ]
 }
