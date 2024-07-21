@@ -1,49 +1,65 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e8f5e9; /* Light green background */
+}
+
 .App {
   text-align: center;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .App-logo {
-  max-width: 90%; /* Limit logo size based on its parent */
-  max-height: 70vmin; /* Limit logo size based on viewport height */
-  width: auto; /* Keep aspect ratio */
-  height: auto; /* Keep aspect ratio */
+  max-width: 75%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .App-header {
   background-color: #ffffff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px; /* Add padding */
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
 }
 
-.App-header h1,
-.App-header p {
-  margin: 20px 0; /* Add space between text and other elements */
-}
-
-/* Responsive font size for the header and paragraph */
 h1 {
-  font-size: 4vw; /* Scale font size based on viewport width */
+  font-size: 3vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  color: #2e7d32; /* Dark green color */
 }
 
 p {
-  font-size: 2vw; /* Scale font size based on viewport width */
+  font-size: 1.5vw;
+  line-height: 1.6;
+  margin: 10px 0;
 }
 
-/* For smaller devices with width less than 600px */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 6vw; /* Increase font size for small screens */
-  }
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.5vw;
+  margin: 10px;
+  display: inline-block;
+}
 
-  p {
-    font-size: 4vw; /* Increase font size for small screens */
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  .App-logo {
-    max-height: 60vmin; /* Reduce logo size on small screens */
-  }
+.contact-info, .store-hours {
+  margin-top: 20px;
+}
+
+.map-embed {
+  margin-top: 20px;
 }
