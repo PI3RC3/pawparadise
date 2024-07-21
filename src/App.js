@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={process.env.PUBLIC_URL + '/pppLogo.png'} className="App-logo" alt="Paw Paradise Logo" />
+      <img src={process.env.PUBLIC_URL + '/pppLogo.png'}  className="App-logo" alt="Paw Paradise Logo" />
         
         <div className="store-hours">
           <p><strong>Store Hours:</strong></p>
