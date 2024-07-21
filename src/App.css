@@ -11,10 +11,11 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
-  max-width: 75%;
+  max-width: 50%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -26,6 +27,7 @@ html, body {
   padding: 40px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   max-width: 800px;
+  width: 90%;
   margin: auto;
 }
 
@@ -62,4 +64,23 @@ a:hover {
 
 .map-embed {
   margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App-logo {
+    max-width: 70%;
+  }
+
+  .App-header {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  p, a {
+    font-size: 4vw;
+  }
 }
